@@ -46,12 +46,12 @@ joblib
 
 🧩 File Structure
 phishing-url-detector/
-│
-├── app.py                  # Flask main app
-├── model.pkl               # Trained ML model
-├── templates/              # HTML files
-├── static/                 # CSS/JS (optional)
-└── requirements.txt
+
+ app.py                  # Flask main app
+ model.pkl               # Trained ML model
+ templates/              # HTML files
+ static/                 # CSS/JS (optional)
+ requirements.txt
 
 📦 requirements.txt (sample)
 Flask==3.0.2
