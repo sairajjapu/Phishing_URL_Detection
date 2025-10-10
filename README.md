@@ -53,51 +53,6 @@ phishing-url-detector/
 ├── static/                 # CSS/JS (optional)
 └── requirements.txt
 
-⚙️ Installation and Setup
-1️⃣ Clone the repository
-git clone https://github.com/sairajjapu/phishing_url_detector.git
-cd phishing_url_detector
-
-2️⃣ Create a virtual environment
-python -m venv venv
-
-
-Activate it:
-
-On Windows: venv\Scripts\activate
-
-On macOS/Linux: source venv/bin/activate
-
-3️⃣ Install dependencies
-pip install -r requirements.txt
-
-4️⃣ Run the Flask app
-python app.py
-
-
-By default, the app will run on
-👉 http://127.0.0.1:5000
-
-🧩 Example Usage
-
-Open the web app in your browser.
-
-Enter a URL, e.g.:
-
-http://paypal-login-verification.com/
-
-
-Click Check URL.
-
-The app will return a message such as:
-
-⚠️ This is a Phishing URL!
-
-
-or
-
-✅ This URL appears to be Legitimate.
-
 📦 requirements.txt (sample)
 Flask==3.0.2
 numpy==1.26.0
